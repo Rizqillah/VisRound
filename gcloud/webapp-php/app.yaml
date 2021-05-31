@@ -1,0 +1,21 @@
+runtime: php74
+
+runtime_config: 
+  document_root: .
+
+handlers:
+
+- url: /(.+\.(gif|png|jpg|css|js|map|PNG|jpeg))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg|css|js|map|PNG|jpeg)$
+
+- url: /css
+  static_dir: css
+
+- url: .*
+  script: auto
+
+- url: /.*
+  script: auto
+
+
