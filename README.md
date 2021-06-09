@@ -19,5 +19,5 @@ Testing Images in the Web
 2. Upload an image (warehouses)
 3. Wait for the result
 
-Presentation Project and Go-to-Market video :
+Video Presentation Project and Go-to-Market :
 https://youtu.be/M5I4Camq9gA
