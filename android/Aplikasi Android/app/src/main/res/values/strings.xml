@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">CareWorkers</string>
-    <string name="title">Tujuan Penerapan K3</string>
-    <string name="call_ambulance">Call Ambulance</string>
-    <string name="call_fire_brigade">Call Fire Brigade</string>
-
-</resources>
