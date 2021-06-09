@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@id/title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/prev_icon"
+            android:text="Prev"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/light_orange"
+            android:fontFamily="@font/roboto"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Next"
+            android:layout_centerHorizontal="true"
+            android:text="CCTV 1"
+            android:fontFamily="@font/staatliches"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"/>
+
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/light_orange"
+            android:drawableRight="@drawable/next"
+            android:fontFamily="@font/roboto"
+            android:text="Next"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/callAmbulance"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:fontFamily="@font/roboto"
+            android:backgroundTint="@color/light_orange"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/call_ambulance"/>
+
+        <Button
+            android:id="@+id/callFire"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:fontFamily="@font/roboto"
+            android:backgroundTint="@color/light_orange"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/call_fire_brigade"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
